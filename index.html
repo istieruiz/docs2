@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Webstory: Diversidad Musical en Chile</title>
+
+  <!-- Fuente Quicksand desde Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Estilos y scripts -->
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+
+  <!-- Banner con título y subtítulo -->
+  <header class="hero">
+    <img src="img/banner.png" alt="Banner de artistas" class="bg-video" />
+    <img src="logo.png" alt="Logo del proyecto" class="logo-header" />
+    <h1>Apaga Spotify,<br />porque la radio suena distinto</h1>
+    <p class="sub">Un análisis en profundidad de la diversidad musical</p>
+  </header>
+
+  <!-- Introducción -->
+  <section class="section" id="por-que-comparamos">
+    <h2 class="titulo-seccion">
+      <img src="img/sticker-guitar.png" alt="Sticker guitarra" class="sticker-intro-inline" />
+      ¿Por qué comparamos Spotify y la radio?
+    </h2>
+    <p>
+      La música <span class="destacado">sin duda es algo que nos define.</span> Para algunos es indispensable, para otros es una forma de comunicarse. Sea cual sea la emoción, lo más probable es que tengas tu playlist favorita o una estación radial que siempre escuchas.
+      Para entender mejor cómo consumimos música en Chile, decidimos comparar la diversidad musical que ofrecen dos grandes plataformas: las radios chilenas y Spotify Chile.
+      <span class="destacado">¿Qué entendemos por diversidad musical?</span> Es importante dejar claro cómo mediremos esa diversidad: en este trabajo, la definimos como la variedad de géneros musicales, artistas y nacionalidades presentes en ambas plataformas. Para facilitar el análisis, agrupamos los estilos en macrogéneros, lo que nos permite observar con mayor claridad las tendencias generales.
+      Así, buscamos responder una gran pregunta: ¿quién da más espacio a la diversidad en la música que escuchamos a diario?
+    </p>
+
+    <div class="imagenes-comparacion">
+      <img src="img/radio.png" alt="Radio" class="img-comparacion" />
+      <img src="img/spot.png" alt="Logo Spotify" class="img-comparacion" />
+    </div>
+  </section>
+
+  <!-- Nuestros datos -->
+  <section class="section datos-cool" id="nuestros-datos">
+    <h2 class="titulo-datos">
+      <img src="img/sticker-data.png" alt="Ícono datos" class="sticker-datos" />
+      NUESTROS DATOS
+    </h2>
+    <p class="texto-datos">
+      Para este proyecto, <span class="resalte">analizamos en profundidad más de 2.500 posiciones</span> en rankings de popularidad musical.
+      Nos enfocamos en entender qué géneros y artistas dominaban tanto en <span class="resalte">Spotify Chile</span> como en <span class="resalte">las radios chilenas</span> entre 2021 y 2024.
+      Este cruce de datos nos permitió <span class="resalte">descubrir tendencias, contrastes y sorpresas</span> entre lo que suena en la radio y lo que lidera las plataformas digitales.
+    </p>
+  </section>
+
+  <!-- Sección de géneros musicales -->
+  <section class="section generos-cool" id="generos">
+
+    <!-- Stickers decorativos -->
+    <img src="img/sticker-disco.png" alt="Sticker disco" class="sticker-generos sticker-disco-generos" />
+    <img src="img/sticker-estrella.png" alt="Sticker estrella" class="sticker-generos sticker-estrella-generos" />
+
+    <h2 class="titulo-generos">
+      🎶 ¿Qué tan diversa es la música que escuchamos?
+    </h2>
+
+    <p class="highlight-text">
+      ¿Qué tan diversa es la música que escuchamos? Para entenderlo, comparamos los rankings musicales de la radio y Spotify durante los últimos años.
+    </p>
+
+    <!-- Gráfico: géneros en la radio -->
+    <div class="grafico bloque-grafico">
+      <iframe class="iframe-grafico" src="area_apilada_radio.html"></iframe>
+    </div>
+
+    <p class="highlight-text">
+      En la radio, el pop domina entre 2021 y 2024, seguido por el crecimiento de la música urbana y la presencia constante de la electrónica. Este último género destaca en 2021, decae en 2022 y retoma fuerza en 2023, donde experimenta un crecimiento significativo tanto en términos de ingresos como de popularidad, ganando más seguidores en plataformas como YouTube, TikTok, Instagram, Facebook y Spotify. En algunos casos, incluso ha superado a otros géneros importantes como el hip hop, el rock y la música latina.
+    </p>
+
+    <!-- Gráfico: géneros en Spotify -->
+    <div class="grafico bloque-grafico">
+      <iframe class="iframe-grafico" src="area_apilada_spotify.html"></iframe>
+    </div>
+
+    <p class="highlight-text">
+      Spotify muestra una hegemonía clara de la música urbana, seguida —de lejos— por el pop. Una tercera fuerza que se destaca es la música latino-tropical, que agrupa una variedad de ritmos como bachata, merengue, salsa, fandango, cumbia y vallenato. A pesar de la fuerte presencia de los otros estilos, la electrónica también mantiene una participación constante durante los cuatro años analizados, consolidándose como un género estable en el consumo digital.
+    </p>
+
+    <h3 class="subtitulo-generos">✨ Pop y Urbano presentes… ¿pero también la electrónica?</h3>
+
+    <div class="genero-electronica">
+      <img src="electronica.jpeg" alt="Imagen sobre música electrónica" class="img-electronica" />
+      <div class="texto-electronica">
+        <p>
+          Los géneros más escuchados son el <span class="resalte">pop</span> y <span class="resalte">urbano</span>, pero el tercer género que aparece de forma consistente en ambas plataformas es la electrónica. En Chile, este género ha crecido de forma sostenida, siendo algunos de los artistas más reconocidos David Guetta, Daft Punk, Calvin Harris, Marshmellow y Martin Garrix. La escena electrónica chilena ha experimentado un crecimiento significativo, con la llegada de festivales internacionales como Creamfields y Ultra Music, y la consolidación de sellos discográficos como Comeme y Pirotecnia.
+        </p>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Sección ZOOM por año -->
+  <section class="section zoom-evolucion" id="zoom-evolucion">
+    <h2 class="titulo-zoom">🔍 Zoom de la evolución</h2>
+    <p class="intro-zoom">¿Pero entonces, quién es más diverso?</p>
+
+    <div class="grilla-graficos">
+
+      <!-- Año 2021 -->
+      <div class="card-grafico">
+        <h3>2021 - Radio</h3>
+        <iframe class="iframe-grafico-torta" src="composicion_genero_radio_2021.html"></iframe>
+      </div>
+      <div class="card-grafico">
+        <h3>2021 - Spotify</h3>
+        <iframe class="iframe-grafico-torta" src="composicion_genero_spotify_2021.html"></iframe>
+      </div>
+      <p class="descripcion-zoom">En 2021, la radio mostró más equilibrio entre géneros, mientras Spotify fue dominado por la música urbana.</p>
+
+      <!-- Año 2022 -->
+      <div class="card-grafico">
+        <h3>2022 - Radio</h3>
+        <iframe class="iframe-grafico-torta" src="composicion_genero_radio_2022.html"></iframe>
+      </div>
+      <div class="card-grafico">
+        <h3>2022 - Spotify</h3>
+        <iframe class="iframe-grafico-torta" src="composicion_genero_spotify_2022.html"></iframe>
+      </div>
+      <p class="descripcion-zoom">En 2022, ambos muestran patrones similares, aunque Spotify se diversifica ligeramente.</p>
+
+      <!-- Año 2023 -->
+      <div class="card-grafico">
+        <h3>2023 - Radio</h3>
+        <iframe class="iframe-grafico-torta" src="composicion_genero_radio_2023.html"></iframe>
+      </div>
+      <div class="card-grafico">
+        <h3>2023 - Spotify</h3>
+        <iframe class="iframe-grafico-torta" src="composicion_genero_spotify_2023.html"></iframe>
+      </div>
+      <p class="descripcion-zoom">Para 2023, la radio sigue mostrando más variedad. Spotify mantiene sus tendencias dominantes.</p>
+
+      <!-- Año 2024 -->
+      <div class="card-grafico">
+        <h3>2024 - Radio</h3>
+        <iframe class="iframe-grafico-torta" src="composicion_genero_radio_2024.html"></iframe>
+      </div>
+      <div class="card-grafico">
+        <h3>2024 - Spotify</h3>
+        <iframe class="iframe-grafico-torta" src="composicion_genero_spotify_2024.html"></iframe>
+      </div>
+      <p class="descripcion-zoom">En 2024, las diferencias se acentúan: la radio amplía su repertorio, mientras Spotify se concentra en sus géneros más populares.</p>
+
+    </div>
+  </section>
+
+  <!-- Sección artistas destacados en la radio -->
+  <section class="section" id="artistas">
+    <h2>Top 5 artistas en la radio (2021–2024)</h2>
+    <ol class="artista-lista">
+
+      <li>
+        <img src="dua.jpg" alt="Dua Lipa" />
+        <div class="artista-info">
+          <h3>1. Dua Lipa</h3>
+          <p>Dua Lipa es una artista albano-británica cuyo álbum debut salió en 2017. Con 29 años es una de las artistas más escuchadas a nivel global con éxitos como "Houdini" & "Cold Heart". Dua Lipa ocupa el primer puesto con 161 entradas entre los años 2021-2024.</p>
+        </div>
+      </li>
+
+      <li>
+        <img src="harry.jpg" alt="Harry Styles" />
+        <div class="artista-info">
+          <h3>2. Harry Styles</h3>
+          <p>Harry Styles es un artista británico ex miembro del grupo One Direction. En 2017 empieza su carrera como solista, teniendo éxitos como "Watermelon Sugar" o "As it Was". Ocupa el segundo lugar con 118 entradas entre los años 2021-2024.</p>
+        </div>
+      </li>
+
+      <li>
+        <img src="mon.jpg" alt="Mon Laferte" />
+        <div class="artista-info">
+          <h3>3. Mon Laferte</h3>
+          <p>Mon Laferte es una artista chilena nacionalizada mexicana. En México consolidó su carrera generando éxitos musicales como "Amárrame" o "Tu falta de querer". Su trabajo como artista y compositora tomó tiempo en ser reconocido a nivel global, dejándola en tercer lugar de este ranking con 114 entradas entre los años 2021-2024.</p>
+        </div>
+      </li>
+
+      <li>
+        <img src="ed.jpg" alt="Ed Sheeran" />
+        <div class="artista-info">
+          <h3>4. Ed Sheeran</h3>
+          <p>Ed Sheeran es un músico británico reconocido a nivel global. Famoso por temas como "Shape of You" o "Perfect". Siendo headliner de varios festivales internacionales es parte de este top con 97 entradas entre los años 2021-2024.</p>
+        </div>
+      </li>
+
+      <li>
+        <img src="wek.jpg" alt="The Weeknd" />
+        <div class="artista-info">
+          <h3>5. The Weeknd</h3>
+          <p>Abel Tesfaye, también conocido por su nombre The Weeknd, completa esta lista. Reconocido mundialmente por su nombre llamativo y canciones como "Blinding Lights", "Starboy" o "Save Your Tears", The Weeknd se transforma en el nuevo rostro del pop con 93 entradas entre los años 2021-2024.</p>
+        </div>
+      </li>
+
+    </ol>
+  </section>
+
+  <!-- Sección artistas destacados en Spotify -->
+  <section class="section" id="artistas-spotify">
+    <h2>Top 5 artistas en Spotify Chile (2021–2024)</h2>
+    <ol class="artista-lista">
+
+      <li>
+        <img src="bad.jpg" alt="Bad Bunny" />
+        <div class="artista-info">
+          <h3>1. Bad Bunny</h3>
+          <p>Bad Bunny es un fenómeno global del trap y reguetón. Con una seguidilla de lanzamientos constantes, se ha mantenido como el artista más reproducido en Spotify Chile durante cuatro años consecutivos. Su capacidad de reinventar el sonido urbano lo deja como número uno con miles de millones de reproducciones.</p>
+        </div>
+      </li>
+
+      <li>
+        <img src="cris.jpg" alt="Chris MJ" />
+        <div class="artista-info">
+          <h3>2. Chris MJ</h3>
+          <p>Chris MJ es uno de los exponentes más destacados del género urbano en Chile. Su éxito “Una noche en Medellín” lo posicionó en el radar internacional, consolidando su presencia en Spotify con múltiples hits que lo mantuvieron en el top 5 entre 2021 y 2024.</p>
+        </div>
+      </li>
+
+      <li>
+        <img src="karo.jpg" alt="Karol G" />
+        <div class="artista-info">
+          <h3>3. Karol G</h3>
+          <p>Karol G ha sido una de las artistas femeninas más escuchadas de la región. Éxitos como “Provenza”, “TQG” y “Bichota” la instalaron en el podio latino del pop urbano, manteniendo su posición privilegiada en Spotify Chile a lo largo de los años analizados.</p>
+        </div>
+      </li>
+
+      <li>
+        <img src="fei.jpg" alt="Feid" />
+        <div class="artista-info">
+          <h3>4. Feid</h3>
+          <p>Feid, también conocido como Ferxxo, se consolidó como uno de los nombres más importantes del reguetón colombiano. En Spotify Chile, su crecimiento ha sido explosivo entre 2023 y 2024, ocupando consistentemente los rankings con su estilo distintivo y colaboraciones destacadas.</p>
+        </div>
+      </li>
+
+      <li>
+        <img src="my.jpg" alt="Myke Towers" />
+        <div class="artista-info">
+          <h3>5. Myke Towers / Standly</h3>
+          <p>El quinto lugar estuvo muy peleado entre Myke Towers —conocido por temas como “Lala” y “Diosa”— y Standly, artista chileno que con “Marisola” y otras colaboraciones, logró irrumpir en los rankings. Ambos representan la mezcla entre lo internacional y lo local que marca el pulso de Spotify en Chile.</p>
+        </div>
+      </li>
+
+    </ol>
+  </section>
+
+  <!-- Relación entre plataformas -->
+  <section class="section relacion-plataformas">
+    <h3 class="subtitulo-generos">🔁 ¿Lo que suena en Spotify... también suena en la radio?</h3>
+
+    <p class="highlight-text">
+      Hoy en día, las plataformas digitales como Spotify parecen dominar la forma en que descubrimos y escuchamos música. Pero, ¿hasta qué punto estas tendencias digitales se reflejan en los medios tradicionales como la radio? Para responder esta pregunta, comparamos los rankings de Spotify Chile y de las radios chilenas entre los años 2021 y 2024.
+    </p>
+
+    <p class="highlight-text">
+      El resultado revela un cruce menor al que podríamos imaginar. La mayoría de los artistas tienden a mantenerse en espacios separados: 670 artistas son exclusivos de la radio, mientras que 661 solo aparecen en Spotify. Sorprendentemente, solo 157 artistas lograron estar presentes tanto en Spotify como en la radio durante este período.
+    </p>
+
+    <p class="highlight-text">
+      Estos datos muestran que, aunque ambas plataformas conviven en el ecosistema musical, sus listas de reproducción siguen caminos bastante distintos. Lo que suena en Spotify no siempre llega a la radio, y viceversa. ¿Estamos, entonces, escuchando mundos paralelos? Todo parece indicar que sí.
+    </p>
+
+    <div class="grafico bloque-grafico">
+      <iframe class="iframe-grafico" src="distribucion_artistas_plataformas.html"></iframe>
+    </div>
+
+
+  </section>
+
+
+<!-- Sección Artistas Chilenos -->
+<section class="artistas-chilenos-section section">
+  <h3 class="subtitulo-generos">¿Y qué pasa con los artistas chilenos?</h3>
+
+  <p class="highlight-text">
+    En medio de la separación entre lo que suena en Spotify y lo que domina en la radio, los artistas chilenos enfrentan un escenario desafiante, pero con espacios que crecen cada vez más. Algunos logran instalarse con fuerza en ambas plataformas, mientras otros permanecen en circuitos más acotados.
+  </p>
+
+  <p class="highlight-text">
+    Entre 2021 y 2024, figuras como Bayron Fire, Cris MJ, El Jordan 23, Fran Maira y Jere Klein consiguieron un lugar destacado en las dos plataformas. También lo hicieron artistas como Julianno Sosa, La Gran Magia Tropical, Los Bunkers, Marcianeke, Pablo Chill-E y Pailita, demostrando que la música chilena tiene la capacidad de trascender formatos y conectar con públicos diversos.
+  </p>
+
+  <p class="highlight-text">
+    Estos nombres no solo representan éxito individual, sino que reflejan cómo la música local puede generar puentes entre dos mundos que, a veces, parecen lejanos: el de la radio tradicional y el de las plataformas digitales.
+  </p>
+
+  <!-- Gráfico Artistas Chilenos -->
+  <div class="grafico bloque-grafico">
+    <iframe class="iframe-grafico" src="artistas_chilenos_ambos.html"></iframe>
+  </div>
+
+  <p class="highlight-text">
+    Y ya que hablamos de Chile, vale la pena detenerse en una pregunta clave: ¿qué papel juega la ley que exige un mínimo de música nacional en la radio? Vamos a verlo.
+  </p>
+</section>
+
+<!-- Sección Ley del 10% -->
+<section class="ley-10-section section">
+  <h3 class="subtitulo-ley-10">📻 Ley del 10% para artistas nacionales en radio</h3>
+
+  <!-- Imagen de radio -->
+  <img src="img/radi.jpeg" alt="Radio representando la Ley del 10%" class="imagen-radio" />
+
+  <p>
+    La ley chilena establece que al menos el 10% de la música emitida en radios comerciales debe ser de artistas nacionales. Esta normativa busca fortalecer la presencia local y garantizar espacio para la cultura chilena en los medios tradicionales.
+  </p>
+
+  <p>
+    El gráfico de la radio refleja claramente el impacto de esta medida en las preferencias. Aunque la ley asegura una exposición mínima, el resultado es mucho más potente: los artistas chilenos no solo están presentes, sino que compiten de muy cerca con los artistas internacionales, especialmente con los de Estados Unidos.
+  </p>
+
+  <p class="highlight-text">
+    Pero, ¿realmente se cumple esta ley? Para responderlo, es clave observar qué nacionalidades predominan en los rankings de la radio y Spotify. Solo así podremos saber si la presencia chilena es tan fuerte como debería.
+  </p>
+</section>
+
+
+
+
+<!-- Nueva sección Nacionalidades -->
+<section class="nacionalidades-section section">
+  <h2>🌍 Nacionalidades predominantes</h2>
+  <p>
+    La diversidad no solo está en los géneros, sino también en el origen de los artistas. Al analizar las plataformas, descubrimos cuáles son las nacionalidades más presentes en los rankings de Spotify y la radio chilena entre 2021 y 2024.
+  </p>
+  <p>
+    🇨🇱 Chile lidera como la nacionalidad más representada, mostrando la fuerte presencia de artistas locales en ambos espacios. 🇺🇸 Estados Unidos y 🇨🇴 Colombia también destacan, especialmente en Spotify, con una marcada influencia de géneros urbanos y pop. 🇲🇽 México y 🇦🇷 Argentina aportan con artistas reconocidos que suenan con frecuencia en la radio.
+  </p>
+  <p>
+    Esta distribución muestra cómo la música chilena convive con la internacional, y cómo las plataformas dan espacio a diferentes orígenes, aunque con variaciones según el medio.
+  </p>
+
+  <p class="highlight-text">
+    🔎 ¿Se cumple la ley del 10% en la radio chilena? Al observar la distribución de nacionalidades en los rankings radiales, el dato es claro: Chile es la nacionalidad más representada en la radio chilena. Esto confirma que la normativa que exige un mínimo de 10% de música nacional no solo se está cumpliendo, sino que la presencia de artistas chilenos supera ampliamente esa base mínima.
+  </p>
+  <p class="highlight-text">
+    El gráfico muestra que los artistas nacionales no solo ocupan un espacio simbólico, sino que lideran las preferencias, por encima de potencias musicales como Estados Unidos, México o Argentina. Este resultado refleja el impacto real de la ley en la programación radial, donde la música chilena mantiene un lugar destacado.
+  </p>
+  <p class="highlight-text">
+    En contraste, Spotify, al ser una plataforma de consumo libre y sin regulaciones locales, muestra una mayor apertura a la música internacional. Aunque Chile sigue liderando en cantidad de artistas, se percibe una mayor diversidad de nacionalidades, lo que refleja el carácter global de esta plataforma y las dinámicas más libres del consumo digital.
+  </p>
+  <p class="highlight-text">
+    📊 <strong>En resumen:</strong> La ley del 10% en la radio chilena no solo se cumple, sino que parece impulsar una fuerte presencia nacional que logra posicionar a los artistas chilenos como protagonistas dentro del espacio radial.
+  </p>
+
+  <!-- Gráficos nacionalidades -->
+  <div class="graficos-nacionalidades">
+    <div class="grafico">
+      <iframe class="iframe-grafico" src="nacionalidades_radionuevo.html" title="Gráfico Nacionalidades Radio"></iframe>
+      <p class="explicacion-grafico">
+        En la gráfica de nacionalidades de artistas en la radio, se pueden observar diversos países, pero con una representación predominante de artistas chilenos. Este resultado permite destacar la vigencia del 10% mínimo para artistas nacionales en las transmisiones radiales nacionales, en línea con la legislación vigente.
+      </p>
+    </div>
+
+    <div class="grafico">
+      <iframe class="iframe-grafico" src="nacionalidades_spotifynuevo.html" title="Gráfico Nacionalidades Spotify"></iframe>
+      <p class="explicacion-grafico">
+        En Spotify, Chile también lidera como se aprecia en el gráfico, pero se observa una mayor diversidad de nacionalidades, reflejando la naturaleza global y la mayor influencia de géneros urbanos y pop internacionales en esta plataforma. Sin embargo, los artistas norteamericanos están bastante más atrás en el ranking.
+      </p>
+    </div>
+  </div>
+</section>
+
+
+<!-- Sección Trayectoria -->
+<section class="trayectoria-section section">
+  <h2>¿Cómo es la trayectoria de artistas chilenos?</h2>
+
+  <div class="grafico">
+    <iframe class="iframe-grafico" src="trayectoria_top5_radio.html" title="Trayectoria Top 5 Radio"></iframe>
+    <p class="explicacion-grafico">
+      A través de este gráfico, observamos cómo se han mantenido en el tiempo los cinco artistas chilenos más destacados en las listas radiales. Nombres como Denise Rosenthal o Los Bunkers muestran una presencia sostenida, conectando con una audiencia más tradicional que sigue prefiriendo este medio para escuchar música. Esta trayectoria evidencia una forma particular de consolidación: la que se construye desde lo masivo y lo estable, y que muchas veces privilegia ciertos géneros más "radiales" por sobre otros.
+    </p>
+  </div>
+
+  <div class="grafico">
+    <iframe class="iframe-grafico" src="trayectoria_top5_spotify.html" title="Trayectoria Top 5 Spotify"></iframe>
+    <p class="explicacion-grafico">
+      En contraste, este segundo gráfico muestra el recorrido de artistas chilenos en Spotify, una plataforma digital donde predominan otros códigos y formas de éxito. Cris MJ y Pailita, representantes del género urbano, irrumpen con fuerza y se posicionan rápidamente en los primeros lugares. A diferencia de la radio, aquí la popularidad puede ser más volátil, pero también más diversa en términos de estilo y propuesta. Esta comparación permite entender cómo la diversidad musical —entendida como la variedad de géneros, trayectorias y públicos— se expresa de manera distinta según el medio, y cómo algunos artistas logran destacarse en ambos mundos, mientras otros se consolidan solo en uno.
+    </p>
+  </div>
+</section>
+
+<!-- Sección Caso Los Bunkers -->
+<section class="bunkers-section section">
+  <h2>El caso específico de Los Bunkers</h2>
+
+  <div class="grafico">
+    <img src="img/Los Bunkers.jpeg" alt="Foto de Los Bunkers" class="imagen-seccion" />
+    <iframe class="iframe-grafico" src="posicion_los_bunker.html" title="Posición Los Bunkers"></iframe>
+    <p class="explicacion-grafico">
+      Los Bunkers representan un caso particular dentro del panorama musical chileno. A través del gráfico, observamos cómo su presencia en los rankings radiales ha ido en ascenso, consolidándose como una de las bandas más vigentes en la programación tradicional. Este comportamiento no solo refleja una fidelidad del público, sino también una línea editorial de las radios que prioriza a ciertos artistas con larga trayectoria, reforzando su visibilidad año a año. Esta permanencia no siempre se replica en plataformas digitales, donde la rotación de artistas es más dinámica, lo que nos muestra cómo los medios tradicionales siguen funcionando como espacios clave de validación para referentes históricos.
+    </p>
+  </div>
+</section>
+
+<!-- Sección Conclusión -->
+<section class="conclusion-section section">
+  <h2>¿A modo de conclusión?</h2>
+  <img src="img/descarga (22).jpeg" alt="Audiencia escuchando música" class="imagen-seccion" />
+  <p>
+    Si hablamos de diversidad musical, es claro que tanto la radio como Spotify aportan, pero lo hacen de formas distintas. Para quienes quieren conocer una amplia variedad de artistas nacionales, la radio puede parecer más rica en géneros y estilos. Sin embargo, gran parte de su programación se basa en canciones no recientes y repite los mismos éxitos de los mismos artistas, renovando su contenido solo ocasionalmente con nuevas tendencias.
+  </p>
+  <p>
+    Por otro lado, Spotify se convierte en una ventana más directa hacia artistas emergentes y actuales, sobre todo dentro del género urbano. Esta concentración, sin embargo, también limita la diversidad si no se amplifican otros estilos o propuestas fuera de lo mainstream.
+  </p>
+  <p>
+    Así, no se trata de decidir cuál plataforma es “mejor”, sino de entender qué tipo de música y artistas promueve cada una. Mientras la radio tiende a reforzar lo ya consolidado, Spotify abre la puerta a nuevas voces, aunque en un terreno más segmentado por género.
+  </p>
+  <p><strong>¿Cómo crees tú que esta diferencia afecta el desarrollo de la música chilena y su visibilidad a futuro?</strong></p>
+</section>
+
+<footer class="footer">
+  <p>&copy; Equipo: Amelie Lefranc & Ignacio Stier 2025 Diversidad Musical en Chile</p>
+</footer>
+
+
